@@ -5,7 +5,7 @@
   "repository": "https://github.com/mjmcgrath2010/mmcgrath-packages",
   "homepage": "https://components.mmcgrath.dev",
   "private": false,
-  "version": "0.1.6",
+  "version": "0.0.1",
   "type": "module",
   "files": [
     "dist"
@@ -51,6 +51,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "3188f9d5628c395f21808f214aa3f833b87e0cd4",
-  "dependencies": {}
+  "gitHead": "3188f9d5628c395f21808f214aa3f833b87e0cd4"
 }
