@@ -1,4 +1,4 @@
-# Mike McGrath's Component Library
+# Mike McGrath's React Components & Utils
 
 ![npm](https://img.shields.io/npm/v/@mmcgrathdev/core)
 
