@@ -1,12 +1,13 @@
 {
   "name": "@mmcgrathdev/root",
   "version": "1.0.01",
+  "repository": "https://github.com/mjmcgrath2010/mmcgrath-packages",
   "description": "Mike McGrath Shared Packages",
   "private": false,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "lerna run build",
+    "build": "lerna bootstrap && lerna run build",
     "publish": "lerna publish --no-private",
     "release": "yarn build && yarn publish"
   },
