@@ -1,0 +1,24 @@
+{
+  "name": "@mmcgrath/root",
+  "version": "1.0.01",
+  "description": "Mike McGrath React Component Library",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lerna run build",
+    "publish": "lerna publish --no-private",
+    "release": "yarn build && yarn publish"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^5.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
