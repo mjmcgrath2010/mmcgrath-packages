@@ -1,7 +1,7 @@
 {
   "name": "@mmcgrath/root",
   "version": "1.0.01",
-  "description": "Mike McGrath React Component Library",
+  "description": "Mike McGrath Shared Packages",
   "private": false,
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,8 @@
     "publish": "lerna publish --no-private",
     "release": "yarn build && yarn publish"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Mike McGrath",
+  "license": "MIT",
   "workspaces": [
     "packages/*"
   ],

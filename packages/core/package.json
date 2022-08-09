@@ -1,5 +1,7 @@
 {
   "name": "@mmcgrath/core",
+  "license": "MIT",
+  "description": "Component Library",
   "private": false,
   "version": "0.1.0",
   "type": "module",
@@ -35,5 +37,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "141149d39d132e23a0d35f9f854a22c05bf10c0d"
 }
