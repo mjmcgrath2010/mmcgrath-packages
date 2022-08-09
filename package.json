@@ -10,8 +10,6 @@
     "publish": "npx lerna publish --no-private",
     "release": "yarn build && yarn publish"
   },
-  "author": "Mike McGrath",
-  "license": "MIT",
   "workspaces": [
     "packages/*"
   ],
